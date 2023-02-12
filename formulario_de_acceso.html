@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+    <link rel="stylesheet" href="estilos/estilosformulario_de_acceso.css" >
+    <link rel="stylesheet" href="estilos/estilosAsirCyberSecurity.css" >
+<title>Formulario de acceso</title>
+</head>
+<body>
+
+    <nav id="cabecera">
+        <div id="logoempresa">
+          <img src="imgs/logo_naranja.png" alt="Logo de la empresa">
+        </div>
+  
+        <div id="linea"></div>
+  
+        <div id="menu">
+          <ul>
+            <li class="titulos"><a href="index.html">Inicio</a></li>
+            <li class="titulos"><a href="productos.html">Productos</a></li>
+            <li class="titulos"><a href="amenazas.html">Amenazas</a></li>
+            <li class="titulos"><a href="noticias.html">Noticias</a></li>
+          </ul>
+        </div>
+        <div id="acceso">
+          <a href="#"><img class="acceso" src="imgs/lupa.jpg"></a>
+          <a href=""><img class="acceso" src="imgs/usuario.jpg"></a>
+        </div> 
+    </nav>
+    
+    <div id="contenedor">
+        <div id="login">
+            <form id="loginform">
+                <label for="usuario">Usuario</label>
+                <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+                    
+                <label for="password">Contraseña</label>
+                <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                    
+                <audio id="submitSound">
+                  <source src="audio/error.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                <button type="submit" onclick="document.getElementById('submitSound').play()">Login</button>
+            </form>
+                
+        </div>
+        <div id="derecho">
+            <div id="titulo">Bienvenido</div>
+                <hr>
+            <div id="registro">
+                <a href="#">¿Perdiste tu contraseña?</a>
+                <a href="formulario_registro.html">Registrate</a>
+                <hr>
+                <a href="AsirCyberSecurity.html">« Volver</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="#">Privacidad</a>
+        <a href="#">Condiciones de uso</a>
+        <a href="#">Accesibilidad</a>
+        <p id="copyright">Copyright © AsirSeguridad</p>
+        <div>
+          <a href="https://www.instagram.com/"><img src="imgs/instagram.png" alt="Logo Instagram"></a> 
+          <a href="https://www.youtube.com/"><img src="imgs/youtube.png" alt="Logo Youtube"></a>
+          <a href="https://twitter.com/"><img src="imgs/twitter.png" alt="Logo Twitter"></a>
+        </div>
+      </footer>
+  
+
+</body>
+</html>

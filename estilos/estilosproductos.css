@@ -1,0 +1,81 @@
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.sombra {
+    filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.7));
+}
+
+#productos {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    background-image: url(../imgs/fondo_contacto.jpg);
+    background-position: center center;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 70% 100%, 30% 100%, 0 75%);
+    margin-bottom: 10px;
+    padding: 20px; 
+}
+
+#titulo {
+    color: #333;
+    font-size: 35px;
+}
+
+.contenedorproducto {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    margin: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.producto {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+    padding: 40px;
+    box-shadow: 0 1px 6px 1px #333333a9;
+}
+
+.nombreproducto {
+    text-decoration: underline;
+    font-size: ;
+}
+
+.precioproducto {
+    color: #f99006;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.incluye {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
+.producto a {
+    color: #333;
+    display: block;
+    padding: 10px;
+    background-color: #ffca85;
+    text-decoration: none;
+    transition: .4s;
+    border-radius: 5px;
+    margin-top: 2px;
+  }
+  
+.producto a:hover {
+    background-color: #f99006;
+    border-radius: 10px;
+    transition: .4s;
+    transform: scale(1.02);
+  }
+  
